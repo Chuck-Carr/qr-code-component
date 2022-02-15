@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    background-color: $lightGray;
+}
+
+.content {
+    // width: 320px;
+    width: 20rem;
+    height: 500px;
+    background-color: $white;
+    border: 1px dashed red;
+    margin: 5.3rem auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+
+
+    img {
+        width: 18rem;
+        height: 18rem;
+        border-radius: 10px;
+        margin-top: 18px;
+
+        
+
+
+    }
+    h1 {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 32px;
+        color: $darkBlue;
+        text-align: center;
+    }
+    p {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0 32px 32px 32px;
+        color: $grayishBlue;
+        text-align: center;
+    }
+}
